@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Player Stats - Cricketers Stat Box</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="topic">Cricketers Stat Box - Player Stats</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="compare.html">Compare Players</a></li>
+        <li><a href="highlights.html">Match History</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="filter-search">
+      <label for="teamFilter">Filter by Team:</label>
+      <select id="teamFilter">
+        <option value="All">All Teams</option>
+      </select>
+
+      <label for="searchPlayer">Search Player:</label>
+      <input type="text" id="searchPlayer" placeholder="Enter player name..." />
+    </section>
+
+    <section id="playersList">
+      <!-- Player cards or table will appear here -->
+    </section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="player-stats.js"></script>
+</body>
+</html>
